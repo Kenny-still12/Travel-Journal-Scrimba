@@ -39,7 +39,7 @@ main {
 }
 
 .entry-image {
-    width: 250px;
+    width: 200px;
     height: 300px;
     border-radius: 12px;
     object-fit: cover;
@@ -80,7 +80,7 @@ main {
 }
 
 .description>.text {
-    width: 50ch;
+    min-width: 50ch;
     font-size: 0.9rem;
     line-height: 1.5;
 }
