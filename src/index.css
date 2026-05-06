@@ -81,7 +81,8 @@ main {
 }
 
 .description>.text {
-    min-width: 50ch;
+    width: 50ch;
+    min-width: 20ch;
     font-size: 0.9rem;
     line-height: 1.5;
 }
