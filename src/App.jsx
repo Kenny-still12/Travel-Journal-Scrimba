@@ -6,6 +6,7 @@ export default function App() {
 
   const entries = data.map(entry => {
     return <Entry
+      key={entry.id}
       img={
         {
           src: entry.img.src,
